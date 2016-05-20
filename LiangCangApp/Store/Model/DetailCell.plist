@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array/>
+	<array/>
+	<array>
+		<string>全部</string>
+		<string>送他</string>
+		<string>送她</string>
+		<string>送儿童</string>
+	</array>
+	<array>
+		<string>全部</string>
+		<string>男士</string>
+		<string>女士</string>
+		<string>儿童</string>
+	</array>
+	<array>
+		<string>全部</string>
+		<string>家居</string>
+		<string>家居配饰</string>
+		<string>厨卫用品</string>
+		<string>儿童用品</string>
+	</array>
+	<array>
+		<string>全部</string>
+		<string>绘画</string>
+		<string>摄影</string>
+		<string>雕塑</string>
+	</array>
+	<array>
+		<string>全部</string>
+		<string>工具</string>
+		<string>玩具</string>
+		<string>出版</string>
+		<string>数码</string>
+		<string>户外用品</string>
+		<string>美容护肤</string>
+	</array>
+</array>
+</plist>

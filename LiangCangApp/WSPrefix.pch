@@ -1,0 +1,34 @@
+//
+//  WSPrefix.pch
+//  LiangCangApp
+//
+//  Created by MS on 15/10/12.
+//  Copyright © 2015年 WS. All rights reserved.
+//
+
+//#ifndef WSPrefix_pch
+#import <Availability.h>
+#define WSPrefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "URLDefine.h"
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "StringConstants.h"
+#import "Tools.h"
+#import "SingleTon.h"
+
+#define InSideUrl  @"http://www.easyflower.com"
+
+
+#define D_payUrl [NSString stringWithFormat:@"%@%@",InSideUrl,@"/dingyue/flower/wxPay.do"]
+
+#define ConfirmOrder [NSString stringWithFormat:@"%@%@",InSideUrl,@"/dingyue/orderWedding/submit.do"]
+
+#define WeiChatAppkey   @"wxef43b8f9263b0597"
+
+#endif /* WSPrefix_pch */
